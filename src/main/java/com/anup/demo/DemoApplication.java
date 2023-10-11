@@ -11,7 +11,7 @@ public class DemoApplication {
 
 	@GetMapping("/message")
 	public String getMessage() {
-		return "yahoo!!! You deployed to Azure again!!";
+		return "yahoo!!! You deployed to Azure again to github!!";
 	}
 
 	public static void main(String[] args) {
