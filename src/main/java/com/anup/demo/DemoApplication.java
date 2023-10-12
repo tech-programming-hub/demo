@@ -11,7 +11,7 @@ public class DemoApplication {
 
 	@GetMapping("/message")
 	public String getMessage() {
-		return "Github workflow action!";
+		return "Github workflow action! test again";
 	}
 
 	public static void main(String[] args) {
